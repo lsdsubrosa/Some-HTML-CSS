@@ -1,0 +1,254 @@
+body {
+  background-color: ivory;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header-region {
+  padding: 0 10px;
+  background: #fef0d5;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+.header-region .layout-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 450px) {
+  .header-region .layout-center {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .header-region .site-logo {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .header-region .site-logo .image {
+    margin: 0 auto;
+  }
+}
+
+.header-region .site-name {
+  margin: 11px 0 0 20px;
+}
+
+@media (max-width: 450px) {
+  .header-region .site-name {
+    margin-left: 0;
+  }
+}
+
+.header-region .share-calendar {
+  margin-left: auto;
+}
+
+@media (max-width: 450px) {
+  .header-region .share-calendar {
+    margin: 0 auto;
+  }
+}
+
+.header-region .social-networks {
+  margin-top: 15px;
+}
+
+.site-name {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #235c55;
+}
+
+.site-name .title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.site-name .description {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.main-button {
+  background: #d81e5d;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #fef0d5;
+  padding: 5px 11px;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.site-logo .image {
+  width: 99px;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.color-choise .label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.color-choise .dropdown {
+  padding: 5px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+.single-calendar {
+  color: #525053;
+  margin-top: 50px;
+}
+
+.single-calendar .deletecalendar {
+  margin-right: 20px;
+}
+
+.single-calendar .addcalendar {
+  margin-left: 20px;
+}
+
+.single-calendar .calendarcontrol {
+  visibility: hidden;
+  font-size: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.single-calendar .calendarcontrol:hover {
+  color: #d81e5d;
+}
+
+.single-calendar:hover .calendarcontrol {
+  visibility: visible;
+}
+
+.single-calendar .calendar {
+  border: 1px solid #235c55;
+  width: 270px;
+  border-radius: 10px;
+  padding: 15px 10px;
+}
+
+.single-calendar .monthname {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.single-calendar .weekends {
+  color: #d1d0d2;
+}
+
+.single-calendar .dayname {
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 7px;
+}
+
+.single-calendar .daynumber {
+  padding: 15px 5px 15px 5px;
+  text-align: center;
+}
+
+.single-calendar .daynumber:hover {
+  background: #fef0d5;
+  cursor: pointer;
+}
+
+.single-calendar .daynumber:last-child,
+.single-calendar .dayname:last-child {
+  color: #d81e5d;
+}
+
+.control-panel {
+  padding: 0 10px;
+}
+
+.calendar-list {
+  padding: 0 10px;
+}
+
+.calendar-list .single-calendar {
+  margin-left: 25px;
+}
+
+.calendar-list .layout-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: -25px;
+}
+
+.register-region {
+  padding: 100px 0 10px 0;
+  margin: 185px 0 0 0;
+  background: url(img/form_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.form-normal {
+  border: 2px solid lightskyblue;
+  border-radius: 15px;
+}
+
+.form-normal .text-form {
+  margin: 5px 3px;
+}
+
+.form-normal .checkbox {
+  background-color: white;
+  padding: 1px 2px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.form-normal .submit {
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+.form-border {
+  border: 2px solid #525053;
+  border-radius: 5px;
+}
+
+.from-description .text-description {
+  margin: 1px 5px;
+  padding: 0;
+}
+
+._container-maxwidth {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+._container {
+  max-width: 948px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=calendar_style.css.map */

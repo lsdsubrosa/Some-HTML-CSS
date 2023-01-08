@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+._container-maxwidth {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+._container-maxheight {
+  max-height: 502px;
+}
+
+.layout-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-block {
+  padding: 50px;
+}
+
+.main-block .strong {
+  font-weight: 800;
+}
+
+.main-block .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icon-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 20px 10px 0;
+}
+
+.icon-text .icon {
+  font-size: 21px;
+  color: white;
+  border-radius: 50%;
+  background: #007ed5;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.icon-text .text {
+  margin-left: 20px;
+}
+
+.icon-text .title {
+  margin: 0 0 5px 0;
+  color: #007ed5;
+  font-weight: normal;
+}
+
+.icon-text .description {
+  margin: 0;
+  font-size: 14px;
+  color: #a09ea0;
+}
+/*# sourceMappingURL=hw4site_gleb_style.css.map */
